@@ -20,7 +20,8 @@
         <!--Автоматическое создание таблицы и обновление полей-->
         <property name="hibernate.hbm2ddl.auto">update</property>
 
-        <!--добавления класса в зависимости для Hibernate-->
+        <!--добавление классов в зависимости для Hibernate-->
         <mapping class="org.library.entity.Author"/>
+        <mapping class="org.library.entity.Book"/>
     </session-factory>
 </hibernate-configuration>
